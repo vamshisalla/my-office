@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.master.qa.extentreport.EXTENTREPORTTEST"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.master.qa.testcases.SubCategoriesPageTest"/>
+      <class name="com.master.qa.testcases.UserTypesTest"/>
+      <class name="com.master.qa.testcases.TaxesPageTest"/>
+      <class name="com.master.qa.testcases.HolidaysPageTest"/>
+      <class name="com.master.qa.testcases.MRPFactorPageTest"/>
+      <class name="com.master.qa.testcases.LOGINPAGETEST"/>
+      <class name="com.master.qa.testcases.CategoriesPageTest"/>
+      <class name="com.master.qa.testcases.InventoryStatusPageTest"/>
+      <class name="com.master.qa.testcases.ShiftsPageTest"/>
+      <class name="com.master.qa.testcases.ConditionPageTest"/>
+      <class name="com.master.qa.testcases.LocationPageTest"/>
+      <class name="com.master.qa.testcases.HOMEPAGETEST"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
